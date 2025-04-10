@@ -10,7 +10,7 @@ class TestLeapYear(unittest.TestCase):
         self.assertTrue(is_leap_year(2000))
 
     def test_false_cases(self):
-        self.assertFalse(is_leap_year(2024))
+        self.assertFalse(is_leap_year(2025))
  
 if __name__ == '__main__':
     unittest.main()
